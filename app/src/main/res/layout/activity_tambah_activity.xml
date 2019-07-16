@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".tambah_activity">
+
+    <TextView
+        android:id="@+id/judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama File"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:text="Catatan"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editText_catatan"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:background="#7CFECA57"
+        android:ems="10"
+        android:gravity="left"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="simpan"
+        android:onClick="save_btn"/>
+</LinearLayout>
